@@ -3,7 +3,7 @@ import sqlite3
 from abc import ABC, abstractmethod
 from Ceaser import Caesar
 from Vigenere import VigenereCipher
-from rsaforbank import RSA_manager
+from Simplified RSA import RSA_manager
 class Bank(ABC):
     @abstractmethod
     def creat_account():
